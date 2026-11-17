@@ -19,3 +19,29 @@ Virtualization Concept
 
 Virtualization allows running multiple operating systems (guest OS) inside one physical server (host OS or hypervisor), similar to dividing a large apartment into sound-isolated rooms.
 The hypervisor manages these virtual machines (VMs), ensuring isolation so that each VM operates independently without interference.
+
+Other Virtualization Types and Cloud Context
+
+Besides OS virtualization, there are other types like storage, data, application, desktop, and network virtualization (software-defined networking or SDN).
+In cloud platforms like AWS, virtualization is fundamental, with services like EC2 (Elastic Computing Cloud) providing virtual machines and Amazon VPC (Virtual Private Cloud) enabling customizable network topologies for these VMs.
+
+
+Types of Virtualization
+1.Server virtualization
+Server virtualization is a process that partitions a physical server into multiple virtual servers. It’s an efficient and cost-effective way to use server resources and deploy IT services in an organization.
+
+2.Storage virtualization
+Storage virtualization combines the functions of physical storage devices, such as network-attached storage (NAS) and storage area network (SAN)
+
+3.Network virtualization
+Any computer network has hardware elements, such as switches, routers, and firewalls. An organization with offices in multiple geographic locations can have several different network technologies working together to create its enterprise network. Network virtualization is a process that combines all of these network resources to centralize administrative tasks.
+
+Network virtualization approaches
+i. Software-defined networking: Software-defined networking (SDN) controls traffic routing by taking over routing management from data routing in the physical environment. As an example, consider a company that wants to provide consistent call quality in all online meetings. The company can program their system to prioritize video-call traffic over application traffic.
+
+ii. Network function virtualization: Network function virtualization technology is designed to improve network performance by combining the functions of network appliances—such as firewalls, load balancers, and traffic analyzers—that work together.
+
+
+Virtualization is creating a virtual version of something real.
+
+

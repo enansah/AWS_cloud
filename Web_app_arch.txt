@@ -1,0 +1,29 @@
+
+Amazon Elastic Compute Cloud (Amazon EC2): Can run many different kinds of resources, including your application frontend
+
+Amazon Simple Storage Service (Amazon S3): Is primarily a storage service, but offers a feature to host highly scalable static HTML websites
+
+Elastic Load Balancing: Automatically distributes incoming application traffic across multiple targets and virtual appliances in one or more Availability Zones
+
+Amazon CloudFront: Is a content delivery network (CDN) service that’s designed to deliver web content (including static and dynamic components) with low latency and high transfer speeds
+
+Amazon API Gateway: Helps build and manage APIs to expose backend services to frontend applications
+
+
+ Application layer 
+The application layer is also known as the middle tier. It contains the core business logic of the web application. This layer processes user requests from the frontend layer, orchestrates data flow, and manages application-specific rules. AWS services that you can use for the application layer include the following:
+
+Amazon EC2:  Can run many different kinds of resources, including your application logic
+
+AWS Lambda: Is a serverless computing service you can use to run code without managing servers; works well for executing discrete application logic
+
+AWS Step Functions: Enables the coordination and sequencing of Lambda functions to build scalable and robust workflows
+
+3. Database layer
+The database layer manages data storage and retrieval. It stores and retrieves information from data that belongs to users, applications, caches, or other data sources. AWS provides various services for the data layer, including the following:
+
+Amazon EC2: Can run many different kinds of resources, including your application database
+
+Amazon Relational Database Service (Amazon RDS): Offers managed database services for popular relational databases such as MySQL, PostgreSQL, and Oracle.
+
+Amazon DynamoDB: Is a fully managed NoSQL database service that’s designed to provide scalability and low-latency access for large-scale applications
